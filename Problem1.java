@@ -3,7 +3,7 @@ import java.util.*;
 class Employee{
 	int empno;
 	int basic;
-	String empname=new String();
+	String empname;
 	
 	Employee(){
 		Scanner sc= new Scanner(System.in);
