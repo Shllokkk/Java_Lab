@@ -1,10 +1,10 @@
 import java.util.*;
 
-class Employee{
+class Salary{
 	int empno;
 	int basic;
 	String empname;
-	Employee(){
+	Salary(){
 		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter Employee no: ");
 		empno=sc.nextInt();
@@ -22,7 +22,7 @@ class Employee{
 }
 public class Mod1Problem1{
 	public static void main(String[] args){
-		Employee e1=new Employee();
+		Salary e1=new Salary();
 		e1.calculate();
 	}
 }
