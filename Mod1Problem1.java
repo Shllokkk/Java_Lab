@@ -4,7 +4,6 @@ class Employee{
 	int empno;
 	int basic;
 	String empname;
-	
 	Employee(){
 		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter Employee no: ");
@@ -21,8 +20,7 @@ class Employee{
         System.out.println("Net Salary: "+ (gsal-0.1*this.basic-100));
 	}
 }
-
-class Problem1{
+class Mod1Problem1{
 	public static void main(String[] args){
 		Employee e1=new Employee();
 		e1.calculate();
