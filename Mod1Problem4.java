@@ -19,18 +19,17 @@ class Customer{
         System.out.println("Acc no: 12ARX230052");
     }
     void deposit(Scanner sc){
-        System.err.print("Enter amount to be deposited in Account: ");
+        System.out.print("Enter amount to be deposited in Account: ");
         bal+=sc.nextInt();
-        System.err.println("Amount deposited in Acc no(12ARX230052): "+bal);
+        System.out.println("Amount deposited in Acc no(12ARX230052): "+bal);
     }
     void withdraw(Scanner sc){
-        System.err.print("Enter amount to be withdrawn from Account: ");
+        System.out.print("Enter amount to be withdrawn from Account: ");
         with=sc.nextInt();
         if(with>bal)
-        System.err.println("Insufficient Balance");
-
+            System.out.println("Insufficient Balance");
         else{
-            System.err.println("Amount withdrawn from Acc no(12ARX230052): "+with);
+            System.out.println("Amount withdrawn from Acc no(12ARX230052): "+with);
             bal-=with;
         }
     }

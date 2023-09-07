@@ -7,7 +7,7 @@ class Racer{
 		speed=sc.nextInt();
 	}
 }
-class Mod1Problem2{
+public class Mod1Problem2{
 	public static void main(String[] args){
 		Scanner temp=new Scanner(System.in);
 		int sum=0;
