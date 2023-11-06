@@ -12,11 +12,10 @@ public class Mod2Problem8 {
         System.out.println("Original ArrayList: " + list);
         reverse(list);
     }
-    public static void reverse(ArrayList<Integer> list) {
+    static void reverse(ArrayList<Integer> list) {
         int size = list.size();
         for (int i = size - 1; i >= 0; i--) {
             System.out.print(list.get(i) + " ");
-        }
-        System.out.println(); 
+        } 
     }
 }
